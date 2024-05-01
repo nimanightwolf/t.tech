@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <title>لیست زمان شروع و پایان کلاس ها</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+        
+        input[type="time"] {
+            width: 200px;
+            margin: 20px;
+            border: 2px solid #000;
+            padding: 10px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+
+        input[type="submit"]{
+            padding: 10px 40px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+button{
+    padding: 10px 40px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+}
+
+        
+        
+        .label {
+            font-weight: bold;
+            color: #000;
+            width: 150px;
+            display: inline-block;
+        }
+        
+        .time1 {
+            background-color: #fff;
+            color: #000;
+            border-color: #fff;
+        }
+        
+      
+        .box{
+            background-color: #95a5a6;
+            padding: 20px;
+            border-radius: 20px;
+            
+            margin-top: 10px;
+            direction: rtl;
+
+        }
+     
+        input{
+            border-radius: 15px;
+        }
+        #page-about{
+            display: none;
+        text-align: center;
+        direction: rtl;
+        }
+        .cover{
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            display: inline-block;
+            background-color: #95a5a6;
+            padding: 20px;
+            border-radius: 20px;
+
+        }
+        
+        @media (max-width: 768px) {
+            /* استایل های مربوط به سایز گوشی */
+            input[type="time"] {
+                width: 100%;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>	
+
+
+    <div id="page-index">
+    <center>
+
+        <form action="/action_page.php">
+            <div class="box">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 539.09 198.95"><defs><style>.cls-1{fill:#900c3f;}.cls-1,.cls-2{stroke:#1d1d1b;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;}.cls-2{fill:#036;}.cls-3{fill:none;stroke:#900c3f;stroke-width:6px;}</style></defs><g id="_3" data-name="3"><path class="cls-1" d="M371.27,296.18h-3.16a25,25,0,0,1-19.12,0H320.64c5.7,1.45,10.84,3.67,9.06,12.41-1.3,10.64,8.23,12.1,15.09,8.17,7.82-5.8,13.73-8.33,21,1.2,4.38,5.76,15.68,2.41,15.57-4.3-.09-13.65,5.83-14.45,12.62-15.56h-22.6Z" transform="translate(-30.93 -146.1)"/><path class="cls-1" d="M406.37,250.23c-1.63-1.54-2.78-.94-11.06-2.87-5.52-1.28-6.36-1.89-7-2.66-1.77-1.88-1.06-14.37-4.4-16.35-8.31-5.71-18.12,4.4-23.8,4.55-5.85-.72-11.74-11.11-19.65-8C326,235.78,345.92,245,316.38,246.38c-7.88,1.87-10.49,9.22-4.47,14.74,11.29,9.29,1.57,15.37-3.53,24.37a10.42,10.42,0,0,0-.2,2.21H339a23.73,23.73,0,0,1-3.29-12.09c.49-28.31,40.23-29.88,45.13-4.77h18.84a18.57,18.57,0,0,1,2.34-3.08C408.27,261.64,411.63,257,406.37,250.23Z" transform="translate(-30.93 -146.1)"/><path class="cls-2" d="M59,204.75h61.86L54.82,323c18.09.09,13.62.17,31.72.26l67.33-118.54c142.76.18,241.9.37,384.66.55q8.91-15.86,17.8-31.72h-480Z" transform="translate(-30.93 -146.1)"/><polygon class="cls-1" points="81.33 150.33 66.35 176.93 93.55 177.18 108.8 150.08 81.33 150.33"/><path class="cls-2" d="M152.17,253.39l17.45-32.25h66.27L217,253.39H199.84L160.75,323H134.28c13-22.53,25.95-47.11,38.92-69.64Z" transform="translate(-30.93 -146.1)"/><path class="cls-2" d="M321.73,221.14H245l-18.1,32.25h76.8Q312.71,237.27,321.73,221.14Z" transform="translate(-30.93 -146.1)"/><path class="cls-2" d="M396.87,287.7" transform="translate(-30.93 -146.1)"/><path class="cls-2" d="M399.88,287.7a42,42,0,0,1-.61,4.49,45,45,0,0,1-2.37,8.16h0c-8.27,17.28-18.09,21.8-19.1,22.68H187.48l34.83-61.43H299s0,0,0,0l-14.65,26.1H234.73l-4.53,8.47H358.49a19.9,19.9,0,0,0,13.43-2.77,19.1,19.1,0,0,0,5.92-6.05Z" transform="translate(-30.93 -146.1)"/><path class="cls-2" d="M421,323l20.11-35.84c6.43.16,18.88.32,25.31.47q-9.93,17.68-19.85,35.37h27.07L530.8,221.14H503.73c-6,10.75-16.44,29-22.41,39.77-6.51-.13-19-.27-25.55-.41,6-10.61,16.43-28.75,22.39-39.36H451.08L393.89,323Z" transform="translate(-30.93 -146.1)"/></g><path class="cls-3" d="M90.46,149.1a56.71,56.71,0,0,0-56.53,56.54V329l0,13,28.37,0H510.48A56.7,56.7,0,0,0,567,285.52V149.1H90.46Z" transform="translate(-30.93 -146.1)"/><path class="cls-3" d="M619.35,183.26" transform="translate(-30.93 -146.1)"/></svg>
+                    
+                    
+		<h1>شنبه</h1>
+            <label for="time1" class="label"> ساعت روشن شدن : </label>
+            <input type="time" id="time1" name="time1" class="time1">
+            <br>
+        
+            <label for="time2" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time2" name="time2" class="time1">
+            <br>
+        </div>
+        <div class="box">
+			<h1>یکشنبه</h1>
+            <label for="time3" class="label"> ساعت روشن شدن :</label>
+            <input type="time" id="time3" name="time3" class="time1">
+            <br>
+            <label for="time4" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time4" name="time4" class="time1">
+            <br>
+            </div>
+            <div class="box">
+			<h1>دوشنبه</h1>
+            <label for="time5" class="label"> ساعت روشن شدن :</label>
+            <input type="time" id="time5" name="time5" class="time1">
+            <br>
+            <label for="time6" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time6" name="time6" class="time1">
+            <br>
+        </div>
+        <div class="box">
+			<h1>سه شنبه</h1>
+            <label for="time7" class="label">ساعت روشن شدن :</label>
+            <input type="time" id="time7" name="time7" class="time1">
+            <br>
+            <label for="time8" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time8" name="time8" class="time1">
+            <br>
+        </div>
+        <div class="box">
+			<h1>چهارشنبه</h1>
+            <label for="time9" class="label">ساعت روشن شدن :</label>
+            <input type="time" id="time9" name="time9" class="time1">
+            <br>
+            <label for="time8" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time10" name="time10" class="time1">
+            <br>
+        </div>
+        <div class="box">
+			<h1>پنجشنبه</h1>
+            <label for="time7" class="label">ساعت روشن شدن :</label>
+            <input type="time" id="time11" name="time11" class="time1">
+            <br>
+            <label for="time8" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time12" name="time12" class="time1">
+            <br>
+        </div>
+        <div class="box">
+			<h1>جمعه</h1>
+            <label for="time7" class="label">ساعت روشن شدن :</label>
+            <input type="time" id="time13" name="time13" class="time1">
+            <br>
+            <label for="time8" class="label">ساعت خاموش شدن:</label>
+            <input type="time" id="time14" name="time14" class="time1">
+            <br>
+            </div>
+            <center>
+                <input type="submit" value="ارسال">
+
+               
+            </center>
+        </form>
+        <br/>
+        <button id="about">درباره ما</button>
+    </center>
+
+</div>
+
+
+
+<div id="page-about">
+    
+
+     <div class="cover">
+
+        <h1>درباره ما</h1>
+        <p>Most of the time, you will probably just be toggling between display: none and display: block, which means that the following may be sufficient when showing a collection of elements.
+
+            You can optionally specify the desired display as the second argument if you don't want it to default to block.</p>
+     
+          
+          آدرس سایت:  <a href="https://siblaand.com"> ورود به سایت</a> <br/>
+          اینستاگرام:  <a href="http://"> </a> <br/>
+
+          شماره تماس : <a href="tel:+989303518382">09303518382</a> <br/>
+<br/>
+            <button id="home"> بازگشت به صفحه اصلی</button>
+        </div>
+
+
+</div>
+
+<script type="text/javascript">
+	const div = document.getElementById("about");
+	div.addEventListener("click", function() {
+	document.getElementById("page-index").style.display = "none";  //hide
+	document.getElementById("page-about").style.display = "block"; //show
+	});
+
+    const div2 = document.getElementById("home");
+	div2.addEventListener("click", function() {
+	document.getElementById("page-index").style.display =  "block"; //hide
+	document.getElementById("page-about").style.display = "none"; //show
+	});
+</script>
+</body>
+
+</html>
